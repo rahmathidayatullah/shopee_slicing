@@ -1,0 +1,265 @@
+body {
+  /* background-color: #888; */
+  background-color: #e6e6e6;
+}
+
+.container {
+  max-width: 1200px !important;
+}
+.header {
+  background: linear-gradient(-180deg, #f53d2d, #f63);
+  height: 132px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 0;
+  position: fixed;
+  z-index: 2;
+}
+.hr1 {
+  margin: 0 10px;
+  height: 20px;
+  width: 1px;
+  background-color: #ffffff;
+}
+
+.img-media {
+  width: 17px;
+  height: 17px;
+}
+
+.icon-brand {
+  width: 50px;
+  height: 51px;
+}
+.text-brand {
+  font-size: 34px;
+}
+
+.wrap-navbar {
+  margin-left: 45px;
+}
+
+.wrap-search {
+  position: relative;
+  width: 746px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.wrap-search .form-control {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  left: 0;
+  top: 0;
+}
+
+.wrap-search .form-control:focus {
+  box-shadow: none;
+}
+
+.wrap-search .form-control::placeholder {
+  color: #888;
+}
+
+.wrap-search .wrap-icon-sch {
+  position: absolute;
+  width: 10%;
+  border-radius: 5px;
+  right: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 87%;
+  background: linear-gradient(-180deg, #f53d2d, #f63);
+}
+
+.wrap-search .wrap-icon-sch img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 25px;
+}
+
+.text-under-nav span {
+  font-size: 11px;
+  margin-left: 15px;
+}
+.text-under-nav span:first-child {
+  margin-left: 0px;
+}
+.icon-shop {
+  width: 40px;
+  height: 40px;
+  margin-left: 67px;
+}
+
+/* content */
+.content {
+  position: relative;
+
+  top: 129px;
+}
+
+.content .shape1 {
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 20px;
+  left: 20px;
+  width: 100px;
+}
+.content .shape2 {
+  position: absolute;
+  left: -5px;
+  top: 0;
+  width: 100px;
+}
+.content .shape3 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  width: 100px;
+}
+.content .shape4 {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 20px;
+  right: 20px;
+  width: 100px;
+}
+
+/* carousel */
+.wrap-slider {
+  height: 268px;
+  padding-top: 32px;
+  position: relative;
+  z-index: 2;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+/* jenis sale */
+.wrap-js span {
+  font-size: 12px;
+}
+.wrap-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 16px;
+  /* background-color: #88888836; */
+  border: 3px solid #88888836;
+  position: relative;
+  padding: 4px;
+  position: relative;
+}
+
+.wrap-img svg {
+  width: 100%;
+  height: 100%;
+  fill: #4a4a4a78;
+}
+
+/* kATEGORY */
+.category span {
+  font-size: 12px;
+}
+.category .card-history {
+  border: 1px solid #888;
+}
+.wrap-img2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 33px;
+  background-color: #88888836;
+  position: relative;
+  padding: 4px;
+}
+
+.wrap-img2 svg {
+  width: 100%;
+  height: 100%;
+  fill: #4a4a4a78;
+}
+/* flash sale */
+
+.flash-sale .text-flash span {
+  background-color: black;
+  padding: 2px 5px;
+  font-weight: bold;
+}
+
+.card-flash {
+  width: 100%;
+  height: 250px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sale-of {
+  background-color: yellow;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sale-of span {
+  font-size: 12px;
+}
+.img-flash {
+  position: relative;
+  width: 80%;
+  height: 60%;
+  border-radius: 12px;
+  background-color: #8888881a;
+}
+.sale {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: red;
+}
+.proggreser {
+  width: 100%;
+  background-color: #ef00003d;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+.proggreser span {
+  position: relative;
+  z-index: 2;
+}
+.bar-progresss {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  z-index: 1;
+  background-color: red;
+}
